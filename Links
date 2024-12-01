@@ -1,14 +1,15 @@
-GCP – github – Fastapi link 
-https://cross-sell-model-fastapi-46604026246.us-central1.run.app/docs#/default/predict_predict_post
----------------------------------------------------------------------------------------------------------
-GCP – github – Streamlit link 
-https://cross-sell-model-webapp-46604026246.us-central1.run.app
----------------------------------------------------------------------------------------------------------
-AWS – docker – Fastapi link 
-https://container-service-1.m6kb1avhqx16c.ap-south-1.cs.amazonlightsail.com/docs#/default/predict_predict_post
----------------------------------------------------------------------------------------------------------
-AWS – docker - Streamlit link
-https://container-service-2.m6kb1avhqx16c.ap-south-1.cs.amazonlightsail.com/
+### GCP – GitHub – FastAPI
+[FastAPI Docs](https://cross-sell-model-fastapi-46604026246.us-central1.run.app/docs#/default/predict_predict_post)
+
+### GCP – GitHub – Streamlit
+[Streamlit App](https://cross-sell-model-webapp-46604026246.us-central1.run.app)
+
+### AWS – Docker – FastAPI
+[FastAPI Docs](https://container-service-1.m6kb1avhqx16c.ap-south-1.cs.amazonlightsail.com/docs#/default/predict_predict_post)
+
+### AWS – Docker – Streamlit
+[Streamlit App](https://container-service-2.m6kb1avhqx16c.ap-south-1.cs.amazonlightsail.com/)
+
 ---------------------------------------------------------------------------------------------------------
 Docker images:- 
 Fastapi    - gayathri1708/fastapi-aws:1.0
