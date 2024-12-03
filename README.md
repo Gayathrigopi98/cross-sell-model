@@ -28,6 +28,7 @@ Clone the repository:
 git clone https://github.com/Gayathrigopi98/cross-sell-model.git
 
 ## How to Run:
+```bash
 For FastAPI  : uvicorn model_app:app --reload
 For Streamlit: streamlit run .\webview.py
 
