@@ -1,44 +1,37 @@
-Project Title: Predicting Vehicle Insurance Adoption - A Cross-Sell Model
+# Project Title: Predicting Vehicle Insurance Adoption - A Cross-Sell Model
 
-Description:
-This project aims to predict whether health insurance policyholders are likely to purchase vehicle insurance using a machine learning classification model. The model uses boosting techniques to provide predictions and is deployed using FastAPI and Streamlit on both Google Cloud Platform (GCP) and AWS.
+## Description:
+This project aims to predict whether health insurance policyholders are likely to purchase vehicle insurance using a machine learning classification model. The model uses boosting techniques for predictions and is deployed using FastAPI and Streamlit on both Google Cloud Platform (GCP) and AWS.
 
-Features:
-Machine learning classification model using boosting techniques.
-FastAPI application for model deployment on GCP and AWS.
-Streamlit app for easy user interface and interaction.
-Docker images for AWS deployment.
+## Features:
+- Machine learning classification model using boosting techniques.
+- FastAPI application for model deployment on GCP and AWS.
+- Streamlit app for easy user interface and interaction.
+- Docker images for AWS deployment.
 
-Project Structure:
-├── fastapi_aws[folder]/
-│   └── [FastAPI application for AWS]
-├── fastapi[folder]/
-│   └── [FastAPI application for GCP]
-├── web_app_aws[folder]/
-│   └── [Streamlit application for AWS]
-├── web_app[folder]/
-│   └── [Streamlit application for GCP]
-├── cross-sell-prediction/
-│   └── [Model PKL file]
-├── links.md
-└── README.md
+## Project Structure:
 
-Requirements:[To run the project, you'll need the following]
-Python 3.x
-FastAPI
-Streamlit
-Docker (for AWS)
-Google Cloud SDK (for GCP)
-Other dependencies listed in the requirements.txt
+├── fastapi_aws/ # FastAPI application for AWS │ └── [FastAPI files] ├── fastapi/ # FastAPI application for GCP │ └── [FastAPI files] ├── web_app_aws/ # Streamlit application for AWS │ └── [Streamlit files] ├── web_app/ # Streamlit application for GCP │ └── [Streamlit files] ├── cross-sell-prediction/ # Model PKL file │ └── [Model PKL file] ├── links.md # Links for FastAPI & Streamlit └── README.md # Project documentation
 
-Installation:
+## Requirements:
+To run the project, you'll need the following:
+- Python 3.x
+- FastAPI
+- Streamlit
+- Docker (for AWS)
+- Google Cloud SDK (for GCP)
+- Other dependencies listed in the `requirements.txt`
+
+## Installation:
+Clone the repository:
+```bash
 git clone https://github.com/Gayathrigopi98/cross-sell-model.git
 
-How to Run:
+## How to Run:
 For FastAPI  : uvicorn model_app:app --reload
 For Streamlit: streamlit run .\webview.py
 
-For AWS Deployment (using Docker)[Build and run the Docker containers for FastAPI and Streamlit]
+## For AWS Deployment (using Docker)[Build and run the Docker containers for FastAPI and Streamlit]
 docker build -t fastapi-aws .
 docker run -p 8000:8000 fastapi-aws
 
