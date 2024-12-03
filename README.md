@@ -22,17 +22,18 @@ To run the project, you'll need the following:
 - Google Cloud SDK (for GCP)
 - Other dependencies listed in the `requirements.txt`
 
-## Installation:
+### Installation:
 Clone the repository:
 git clone https://github.com/Gayathrigopi98/cross-sell-model.git
 
-## How to Run:
-For FastAPI  : uvicorn model_app:app --reload
-For Streamlit: streamlit run .\webview.py
+### How to Run:
+- For FastAPI  : uvicorn model_app:app --reload
+- For Streamlit: streamlit run .\webview.py
 
-## For AWS Deployment (using Docker)[Build and run the Docker containers for FastAPI and Streamlit]
-docker build -t fastapi-aws .
-docker run -p 8000:8000 fastapi-aws
+### For AWS Deployment 
+- [Build and run the Docker containers for FastAPI and Streamlit]
+- docker build -t fastapi-aws .
+- docker run -p 8000:8000 fastapi-aws
 
 Links:
 ### GCP – GitHub Links
@@ -48,6 +49,6 @@ Links:
 - Streamlit: `gayathri1708/streamlit-aws:1.0`
 
   
-Model Evaluation:
-ROC-AUC Score: 80.01
+### Model Evaluation:
+- ROC-AUC Score: 80.01
 
